@@ -1,0 +1,5 @@
+git remote add origin "https://gitlab.com/suriyaburobd/test.git"
+git remote set-url origin https://gitlab.com/suriyaburobd/test.git
+
+git config --global user.email "suriya@burobd.org"
+  git config --global user.name "suriyaburobd"

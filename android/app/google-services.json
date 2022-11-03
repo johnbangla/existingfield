@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470525767765",
+    "project_id": "buro-employee",
+    "storage_bucket": "buro-employee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470525767765:android:7ce436922effa50009a4dc",
+        "android_client_info": {
+          "package_name": "com.burobd.buro_employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470525767765-hu8luud16fqe9drj1289n43pqf8kam0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY_1vU3cYZ0ribbOB1YN_P1Ajvo5TjrYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470525767765-hu8luud16fqe9drj1289n43pqf8kam0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

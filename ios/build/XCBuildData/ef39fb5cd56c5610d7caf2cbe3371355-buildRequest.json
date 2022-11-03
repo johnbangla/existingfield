@@ -1,0 +1,469 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "PACKAGE-PRODUCT:openssl_grpc"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:openssl_grpc"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:Firebase"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseABTesting"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAnalytics"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAnalyticsSwift-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsSwiftTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsTarget"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAnalyticsWithoutAdIdSupport"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsWithoutAdIdSupportTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsWithoutAdIdSupportWrapper"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAnalyticsWrapper"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAppCheck"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAppCheck"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAppDistribution"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAppDistribution-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAppDistributionTarget"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAuth"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAuth"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseAuthCombine-Community"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseAuthCombineSwift"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseCore"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseCoreDiagnostics"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseCrashlytics"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseCrashlytics"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseDatabase"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseDatabase"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseDatabaseSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseDatabaseSwift-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseDynamicLinks"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseDynamicLinks"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseDynamicLinksTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFirestore"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseFirestore"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseFirestoreCombine-Community"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFirestoreCombineSwift"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFirestoreSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseFirestoreSwift-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFirestoreSwiftTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFirestoreTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFunctions"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseFunctions"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseFunctionsCombine-Community"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseFunctionsCombineSwift"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseInAppMessaging"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseInAppMessaging-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseInAppMessagingSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseInAppMessagingSwift-Beta"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseInAppMessagingTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseInAppMessaging_iOS"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseInstallations"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseInstallations"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseMLModelDownloader"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseMLModelDownloader"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseMessaging"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseMessaging"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebasePerformance"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebasePerformance"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebasePerformanceTarget"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseRemoteConfig"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseRemoteConfig"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseStorage"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseStorage"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseStorageCombine-Community"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseStorageCombineSwift"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FirebaseStorageSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FirebaseStorageSwift-Beta"
+    },
+    {
+      "guid" : "PACKAGE-RESOURCE:FirebaseInAppMessaging_iOS"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GTMSessionFetcher"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GTMSessionFetcherCore"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GTMSessionFetcherCore"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GTMSessionFetcherFull"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GTMSessionFetcherFull"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GTMSessionFetcherLogView"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GTMSessionFetcherLogView"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GoogleAppMeasurement"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleAppMeasurementTarget"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GoogleAppMeasurementWithoutAdIdSupport"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleAppMeasurementWithoutAdIdSupportTarget"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GoogleDataTransport"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleDataTransport"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULAppDelegateSwizzler"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULEnvironment"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULISASwizzler"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULLogger"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULMethodSwizzler"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULNSData"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULNetwork"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULReachability"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULSwizzlerTestHelpers"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:GULUserDefaults"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_AppDelegateSwizzler"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_Environment"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_ISASwizzler"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_Logger"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_MethodSwizzler"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_NSData"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_Network"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_Reachability"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_SwizzlerTestHelpers"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:GoogleUtilities_UserDefaults"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9ad57b8bce60a0f11113f4cff532db68d3"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9a1f1bf5397e3bf6b03ce2b5ab2078e9b4"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9aa408a4c1f668e62161cdeba76f57d50c"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9ad367f2c9826e0c44989d081ca3d0f4ca"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9a566ec9a1d71c4629f4f85ecb735ce614"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9abbbb266cb4185458611c79148d1a9d13"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9ad3c8dfff2c580c352f83d3850ad17775"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9a718890dfdac589615663a02d43d9af3e"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9a312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9af10882e1684b8a3dfdec597bc0a47af3"
+    },
+    {
+      "guid" : "1c3e6e0fb6953a6c3908a1de74853f9a0062393f91a1d2d94e3e5ed3a5aa5da9"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FBLPromises"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FBLPromises"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:FBLPromisesTestHelpers"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:FBLPromisesTestHelpers"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:Promises"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:Promises"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Promises_Sources-PLAYGROUND-TARGET:/Users/buromacit/Library/Developer/Xcode/DerivedData/Runner-fmypccvbjtjvhwgbmltqqowixgvf/SourcePackages/checkouts/promises/Promises.playground"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:PromisesTestHelpers"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:PromisesTestHelpers"
+    },
+    {
+      "guid" : "648cdd864e8cbc343604e82f81c3044f88a783a885d8b0b3beb2e9f90bde3f49"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:SwiftProtobuf"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:SwiftProtobuf"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:SwiftProtobufPluginLibrary"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:SwiftProtobufPluginLibrary"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:protoc-gen-swift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:abseil"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:abseil"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:gRPC-Core"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:gRPC-Core"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:gRPC-cpp"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:gRPC-cpp"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:leveldb"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:leveldb"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:nanopb"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:nanopb"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/buromacit/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/buromacit/Library/Developer/Xcode/DerivedData/Runner-fmypccvbjtjvhwgbmltqqowixgvf/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/buromacit/Library/Developer/Xcode/DerivedData/Runner-fmypccvbjtjvhwgbmltqqowixgvf/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone13,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "2931928B-1941-4097-BD7C-7F428D1DD884",
+          "TARGET_DEVICE_MODEL" : "iPhone13,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

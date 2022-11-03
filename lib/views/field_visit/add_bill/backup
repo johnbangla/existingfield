@@ -1,0 +1,157 @@
+
+
+
+    /* billMap = {
+                             "appDetailsID": list[key].appDetailsID,
+                             "applicationID": list[key].applicationID,
+                             "transportBy":
+                             _controllerTransportBy[key].text.isEmpty ? '' :
+                             _controllerTransportBy[key].text,
+                             "transport":
+                             transportAddList[key].isEmpty ? 0 : int.parse(
+                                 transportAddList[key]),
+                             "morning": morningAddList[key].isEmpty ? 0 : int.parse(
+                                 morningAddList[key]),
+                             "evening":eveningAddList[key].isEmpty ? 0 : int.parse(
+                                 eveningAddList[key]),
+                             "night": nightAddList[key].isEmpty ? 0 : int.parse(
+                                 nightAddList[key]),
+                             "hotel": hotelAddList[key].isEmpty ? 0 : int.parse(
+                                 hotelAddList[key]),
+                             "dailyBill": dailyBillAddList[key].isEmpty ? 0 : int.parse(
+                                 dailyBillAddList[key]),
+                             "specialBill": specialBillAddList[key].isEmpty ? 0 : int.parse(
+                                 specialBillAddList[key]),
+                             "othersBill": 0
+                           };*/
+
+
+
+   /* controllerList.asMap().forEach((key, value) {
+
+                      if (key == 0) { // Transport by
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            transportByAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if (key == 1) { // Transport
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            transportAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if (key == 2){ // morning
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            morningAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if(key == 3){ // evening
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            eveningAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if (key == 4){ // night
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            nightAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if(key == 5){ // hotel
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            hotelAddList.add(value.text);
+                          }
+                        });
+
+                      }
+                      if(key == 6){ //Daily Bill
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            dailyBillAddList.add(value.text);
+                          }
+                        });
+                      }
+                      if(key == 7){ //Special Bill
+                        value.asMap().forEach((key, value) {
+                          if (key < itemCount) {
+                            specialBillAddList.add(value.text);
+                          }
+                        });
+                      }
+                    });*/
+
+
+
+
+
+
+    List<String> transportByAddList = [];
+     List<String> transportAddList = [];
+     List<String> morningAddList = [];
+     List<String> eveningAddList = [];
+     List<String> nightAddList = [];
+     List<String> hotelAddList = [];
+     List<String> dailyBillAddList = [];
+     List<String> specialBillAddList = [];
+
+
+
+     final Map<String, int> billMap = {
+         "appDetailsID": 0,
+         "applicationID": 0,
+         "transport": 0,
+         "morning": 0,
+         "evening": 0,
+         "night": 0,
+         "hotel": 0,
+         "dailyBill": 0,
+         "specialBill": 0,
+         "othersBill": 0
+       };
+
+
+
+
+        /*isLastPage? Padding(
+                         padding:
+                         const EdgeInsets.only(top: 10),
+                         child: Row(
+                           mainAxisAlignment:
+                           MainAxisAlignment.spaceEvenly,
+                           children: [
+                             Flexible(
+                                 flex: 1,
+                                 child: Padding(
+                                   padding:
+                                   const EdgeInsets.only(
+                                       left: 20, top: 5),
+                                   child: Align(
+                                       alignment: Alignment
+                                           .centerLeft,
+                                       child: Text(
+                                           'Total Amount:')),
+                                 )),
+                             Flexible(
+                               flex: 1,
+                               child: Padding(
+                                 padding:
+                                 const EdgeInsets.only(
+                                     right: 30, top: 5),
+                                 child: Align(
+                                     alignment:
+                                     Alignment.centerLeft,
+                                     child: Text('789/-')
+                                 ),
+                               ),
+                             ),
+                           ],
+                         ),
+                       ):SizedBox()*/
